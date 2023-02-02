@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 400;
+    background: #1c1c1c;
+}
+
+.container {
+    width: 1125px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: bisque;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+nav a:active {
+    color: goldenrod;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-area h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: azure;
+}
+
+.styled-txt {
+    color: #26857d;
+}
+
+.hero-area img {
+    width: 50%;
+    height: auto;
+}
+
+.about,
+.services {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.about h2,
+.services h2 {
+    font-size: 40px;
+    font-weight: 500px;
+    color: #26857d;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 4px dashed #26857d;
+}
+
+.about p {
+    color: azure;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 20px;
+}
