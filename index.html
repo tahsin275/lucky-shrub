@@ -17,17 +17,21 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Subscribe</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section class="hero-area" id="home">
-                <h1>
+                <h1 class="styled-txt">
                     Transform Your Space into <br />An Oasis with
-                    <span class="styled-txt"> Lucky Shrub </span>
+                    <span class="custom-txt"> Lucky Shrub </span>
                 </h1>
-                <img src="./assets/banner.png" alt="banner-image" />
+                <img
+                    src="./assets/banner.png"
+                    alt="banner-image"
+                    class="styled-img"
+                />
             </section>
             <section class="about" id="about">
                 <h2>About Us</h2>
@@ -36,9 +40,9 @@
                     together to transform your outdoor spaces. Started by a
                     husband and wife team, Jason and Maria, Lucky Shrub has been
                     providing garden design, maintenance, and landscaping
-                    services for over [insert number of years]. Our passion for
-                    plants and nature drives us to create stunning and
-                    sustainable outdoor spaces for our clients.
+                    services for over 15 years. Our passion for plants and
+                    nature drives us to create stunning and sustainable outdoor
+                    spaces for our clients.
                 </p>
 
                 <p>
@@ -69,7 +73,103 @@
             </section>
             <section class="services" id="services">
                 <h2>Our Services</h2>
+                <p>
+                    Lucky Shrub is a one-stop shop for all your garden design
+                    and landscaping needs. We specialize in creating beautiful
+                    and functional outdoor spaces that bring joy and serenity to
+                    your life. Our services include:
+                </p>
+                <div class="reveal">
+                    <h3>Garden Design</h3>
+                    <p>
+                        Our garden architect, Jason, will work with you to
+                        create a custom garden design that fits your style and
+                        enhances your outdoor space. Whether you want a lush
+                        vegetable garden, a tranquil rock garden, or a vibrant
+                        flower garden, we'll bring your vision to life.
+                    </p>
+                </div>
+                <div class="reveal">
+                    <h3>Landscaping</h3>
+                    <p>
+                        Our team of skilled landscapers will turn your garden
+                        design into a reality. We'll handle all the heavy
+                        lifting, from installing plants and flowers to building
+                        retaining walls, patios, and walkways. We use the
+                        highest quality materials and work with precision to
+                        ensure a flawless finished product.
+                    </p>
+                </div>
+                <div class="reveal">
+                    <h3>Maintenance</h3>
+                    <p>
+                        Your garden is an investment, and we want to help you
+                        protect it. Our maintenance services include regular
+                        pruning, mulching, and weed control to keep your garden
+                        looking its best. We'll work with you to develop a
+                        customized maintenance plan that fits your needs and
+                        budget.
+                    </p>
+                </div>
+                <div class="reveal">
+                    <h3>Plant Nursery</h3>
+                    <p>
+                        We also run a small plant nursery that sells indoor and
+                        outdoor plants, making us a one-stop shop for all your
+                        plant needs. Our nursery is staffed by experts who can
+                        help you choose the perfect plants for your garden and
+                        give you tips on how to care for them.
+                    </p>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <h2>Subscribe To Our Newsletter</h2>
+                <p>
+                    Get awesome tips about gardenning, design ideas, plant types
+                    and maintenance. Every week right at your inbox. We will
+                    never send you spam messages nor we will sell your email
+                    address. It's safe with us
+                </p>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group submit">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
+        <footer>
+            <p>
+                &copy; Lucky Shrub 2023 || Made By
+                <a
+                    href="https://www.linkedin.com/in/tahsinshahriar/"
+                    target="_blank"
+                    >Tahsin Shahriar</a
+                >
+            </p>
+        </footer>
+
+        <script src="./js/app.js"></script>
     </body>
 </html>
